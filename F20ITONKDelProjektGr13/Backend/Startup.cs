@@ -44,8 +44,12 @@ namespace Backend
 
             //services.AddDbContext<BackendContext>(options =>
             //  options.UseSqlServer(Configuration.GetConnectionString("BackendContext")));
+            
+            //services.AddDbContext<BackendContext>(options =>
+            //    options.UseSqlServer(Configuration.GetConnectionString("Docker")));
+
             services.AddDbContext<BackendContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("LocalServer")));
+                options.UseSqlServer(Configuration.GetConnectionString("F20ITONKASPNETKubernetesConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -43,7 +43,8 @@ namespace Frontend
                 //c.BaseAddress = new Uri("http://" + host);
                 //c.BaseAddress = new Uri("http://f20itonkbackendxyz:8080/"); //Hard coded K8s Service namee
                 //c.BaseAddress = new Uri("http://146.148.126.255:8080/");
-                c.BaseAddress = new Uri("http://10.192.79.33:8081/");
+                //c.BaseAddress = new Uri("http://10.192.79.33:8081/"); // Gr13 BaseAddress
+                c.BaseAddress = new Uri("http://34.76.234.244:8080/");
                 c.DefaultRequestHeaders.Add("ContentType", "application/json");
 
             });

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Stanie\\source\\repos\\F20ITONKDelProjektGr13\\Backend\\Backend.csproj": {}
+    "C:\\Users\\Stanie\\Desktop\\7. Semester\\ITONK\\ITONK\\F20ITONKDelProjektGr13\\Backend\\Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Stanie\\source\\repos\\F20ITONKDelProjektGr13\\Backend\\Backend.csproj": {
+    "C:\\Users\\Stanie\\Desktop\\7. Semester\\ITONK\\ITONK\\F20ITONKDelProjektGr13\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stanie\\source\\repos\\F20ITONKDelProjektGr13\\Backend\\Backend.csproj",
+        "projectUniqueName": "C:\\Users\\Stanie\\Desktop\\7. Semester\\ITONK\\ITONK\\F20ITONKDelProjektGr13\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "C:\\Users\\Stanie\\source\\repos\\F20ITONKDelProjektGr13\\Backend\\Backend.csproj",
+        "projectPath": "C:\\Users\\Stanie\\Desktop\\7. Semester\\ITONK\\ITONK\\F20ITONKDelProjektGr13\\Backend\\Backend.csproj",
         "packagesPath": "C:\\Users\\Stanie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stanie\\source\\repos\\F20ITONKDelProjektGr13\\Backend\\obj\\",
+        "outputPath": "C:\\Users\\Stanie\\Desktop\\7. Semester\\ITONK\\ITONK\\F20ITONKDelProjektGr13\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

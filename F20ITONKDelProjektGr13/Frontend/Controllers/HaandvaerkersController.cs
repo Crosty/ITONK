@@ -1,14 +1,13 @@
 ﻿using System;
+using System.Buffers;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Text.Json;
+using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using Frontend.Data;
 using Frontend.Models;
 
 namespace Frontend.Controllers
@@ -31,7 +30,7 @@ namespace Frontend.Controllers
 
             response.EnsureSuccessStatusCode();
             var responseStream = await response.Content.ReadAsStreamAsync();
-            return View(await JsonSerializer.DeserializeAsync<IEnumerable<Haandvaerker>>(responseStream));
+            return View(await JsonSerializer.DeserializeAsync<IEnumerable<Haandvaerker>>(responseStream, new JsonSerializerOptions()));
         }
 
         // GET: Haandvaerkers/Details/5

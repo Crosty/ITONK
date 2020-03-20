@@ -8565,11 +8565,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Stanie\\source\\repos\\F20ITONKDelProjektGr13\\Frontend\\Frontend.csproj",
+      "projectUniqueName": "C:\\Users\\Stanie\\Desktop\\7. Semester\\ITONK\\ITONK\\F20ITONKDelProjektGr13\\Frontend\\Frontend.csproj",
       "projectName": "Frontend",
-      "projectPath": "C:\\Users\\Stanie\\source\\repos\\F20ITONKDelProjektGr13\\Frontend\\Frontend.csproj",
+      "projectPath": "C:\\Users\\Stanie\\Desktop\\7. Semester\\ITONK\\ITONK\\F20ITONKDelProjektGr13\\Frontend\\Frontend.csproj",
       "packagesPath": "C:\\Users\\Stanie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Stanie\\source\\repos\\F20ITONKDelProjektGr13\\Frontend\\obj\\",
+      "outputPath": "C:\\Users\\Stanie\\Desktop\\7. Semester\\ITONK\\ITONK\\F20ITONKDelProjektGr13\\Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
