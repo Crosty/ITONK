@@ -35,8 +35,8 @@ namespace Frontend
 
             services.AddHttpClient("backend", c =>
             {
-                var host = Configuration["F20ITONKBACKENDXYZ_SERVICE_HOST"];
-                var port = Configuration["F20ITONKBACKENDXYZ_PORT_8080_TCP_PORT"];
+                //var host = Configuration["F20ITONKBACKENDXYZ_SERVICE_HOST"];
+                //var port = Configuration["F20ITONKBACKENDXYZ_PORT_8080_TCP_PORT"];
                 //c.BaseAddress = new Uri("https://localhost:44323/"); //local test
                 //Remark below not using https but http
                 //c.BaseAddress = new Uri("http://" + host + ":" + port + "/"); //Using environment variables
@@ -44,7 +44,13 @@ namespace Frontend
                 //c.BaseAddress = new Uri("http://f20itonkbackendxyz:8080/"); //Hard coded K8s Service namee
                 //c.BaseAddress = new Uri("http://146.148.126.255:8080/");
                 //c.BaseAddress = new Uri("http://10.192.79.33:8081/"); // Gr13 BaseAddress
-                c.BaseAddress = new Uri("http://34.76.234.244:8080/");
+                //c.BaseAddress = new Uri("http://34.76.234.244:8080/");
+
+                var host = "f20itonkbackendgr13";
+                var port = "8080";
+
+                c.BaseAddress = new Uri("http://" + host + ":" + port + "/");
+
                 c.DefaultRequestHeaders.Add("ContentType", "application/json");
 
             });

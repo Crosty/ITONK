@@ -1,0 +1,15 @@
+﻿*****************************Frontend deploy*****************************
+***In powershell
+***In Frontend project directory (Where CSPROJ file is)
+
+> dotnet restore
+> dotnet build
+> dotnet publish -o dist
+> cd ./dist
+
+dist> docker build -t microservicefrontend .
+dist> docker tag microservicebackend stanie/microservicefrontend
+dist> docker push stanie/microservicefrontend
+
+dist> kubectl create deployment f20itonkfrontendgr13 --image=docker.io/stanie/microservicefrontend:latest
+dist> kubectl expose deployment f20itonkfrontendgr13 --type=LoadBalancer --port=8080 --target-port=80

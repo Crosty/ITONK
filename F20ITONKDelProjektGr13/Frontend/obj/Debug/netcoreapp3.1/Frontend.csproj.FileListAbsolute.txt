@@ -177,13 +177,8 @@ C:\Users\Stanie\source\repos\F20ITONKDelProjektGr13\Frontend\bin\Debug\netcoreap
 C:\Users\Stanie\source\repos\F20ITONKDelProjektGr13\Frontend\bin\Debug\netcoreapp3.1\dist\appsettings.json
 C:\Users\Stanie\source\repos\F20ITONKDelProjektGr13\Frontend\bin\Debug\netcoreapp3.1\dist\Frontend.deps.json
 C:\Users\Stanie\source\repos\F20ITONKDelProjektGr13\Frontend\bin\Debug\netcoreapp3.1\dist\Frontend.runtimeconfig.json
-C:\Users\Stanie\Desktop\7. Semester\ITONK\ITONK\F20ITONKDelProjektGr13\Frontend\bin\Debug\netcoreapp3.1\dist\web.config
 C:\Users\Stanie\Desktop\7. Semester\ITONK\ITONK\F20ITONKDelProjektGr13\Frontend\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Stanie\Desktop\7. Semester\ITONK\ITONK\F20ITONKDelProjektGr13\Frontend\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\Stanie\Desktop\7. Semester\ITONK\ITONK\F20ITONKDelProjektGr13\Frontend\bin\Debug\netcoreapp3.1\dist\appsettings.Development.json
-C:\Users\Stanie\Desktop\7. Semester\ITONK\ITONK\F20ITONKDelProjektGr13\Frontend\bin\Debug\netcoreapp3.1\dist\appsettings.json
-C:\Users\Stanie\Desktop\7. Semester\ITONK\ITONK\F20ITONKDelProjektGr13\Frontend\bin\Debug\netcoreapp3.1\dist\Frontend.deps.json
-C:\Users\Stanie\Desktop\7. Semester\ITONK\ITONK\F20ITONKDelProjektGr13\Frontend\bin\Debug\netcoreapp3.1\dist\Frontend.runtimeconfig.json
 C:\Users\Stanie\Desktop\7. Semester\ITONK\ITONK\F20ITONKDelProjektGr13\Frontend\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\Stanie\Desktop\7. Semester\ITONK\ITONK\F20ITONKDelProjektGr13\Frontend\bin\Debug\netcoreapp3.1\Frontend.exe
 C:\Users\Stanie\Desktop\7. Semester\ITONK\ITONK\F20ITONKDelProjektGr13\Frontend\bin\Debug\netcoreapp3.1\Frontend.deps.json

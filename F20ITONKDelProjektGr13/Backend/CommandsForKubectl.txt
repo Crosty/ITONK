@@ -1,0 +1,15 @@
+﻿*****************************Backend deploy*****************************
+***In powershell
+***In Backend project directory (Where CSPROJ file is)
+
+> dotnet restore
+> dotnet build
+> dotnet publish -o dist
+> cd ./dist
+
+dist> docker build -t microservicebackend .
+dist> docker tag microservicebackend stanie/microservicebackend
+dist> docker push stanie/microservicebackend
+
+dist> kubectl create deployment f20itonkbackendgr13 --image=docker.io/stanie/microservicebackend:latest
+dist> kubectl expose deployment f20itonkbackendgr13 --type=LoadBalancer --port=8080 --target-port=80
